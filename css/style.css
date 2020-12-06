@@ -158,9 +158,27 @@ section {
 footer {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 footer .container {
   height: 75px;
   background: #686868;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer .container h3 {
+  font-family: tahoma;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+footer .logos {
+}
+
+footer .logos img {
+  height: 25px;
 }
