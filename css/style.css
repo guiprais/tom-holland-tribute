@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 990px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+header .container {
+  height: 75px;
+  background: #686868;
+  justify-content: flex-end;
+}
+
+nav ul,
+nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav a {
+  display: block;
+  padding: 28px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #cacaca;
+  font-family: "Nanum Myeongjo", serif;
+}
+
+nav a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-tom {
+  font-family: "Cinzel Decorative";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 129px;
+  align-items: center;
+  text-align: center;
+
+  margin-top: 50px;
+}
+
+.title-bar {
+  width: 563px;
+  height: 1px;
+  background-color: #000000;
+  margin-bottom: 67px;
+}
+
+#title img {
+  width: 990px;
+  height: auto;
+}
+
+#about {
+  display: flex;
+}
+
+#about .container {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.container h1 {
+  font-family: "Cormorant Unicase", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2px;
+}
+
+#about .container h2 {
+  font-family: "Crimson Text", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 39px;
+  align-items: center;
+  text-align: justify;
+}
+
+.barra {
+  display: flex;
+  justify-content: center;
+}
+
+.barra span {
+  width: 563px;
+  height: 1px;
+  background-color: #000000;
+  margin-bottom: 67px;
+}
+
+#filmography {
+  display: flex;
+}
+
+#filmography .container {
+  flex-direction: column;
+}
+
+.filmes {
+  display: grid;
+  justify-content: center;
+}
+
+.filme-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  row-gap: 20px;
+  margin: 60px;
+}
+
+.filme-container h2 {
+  font-family: "Crimson Text", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 39px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer .container {
+  height: 75px;
+  background: #686868;
+}
