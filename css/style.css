@@ -42,7 +42,7 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   color: #cacaca;
-  font-family: "Nanum Myeongjo", serif;
+  font-family: 'Nanum Myeongjo', serif;
 }
 
 nav a:hover {
@@ -61,7 +61,7 @@ section {
 }
 
 .title-tom {
-  font-family: "Cinzel Decorative";
+  font-family: 'Cinzel Decorative';
   font-style: normal;
   font-weight: normal;
   font-size: 96px;
@@ -94,7 +94,7 @@ section {
 }
 
 .container h1 {
-  font-family: "Cormorant Unicase", serif;
+  font-family: 'Cormorant Unicase', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -104,8 +104,8 @@ section {
   margin-bottom: 2px;
 }
 
-#about .container h2 {
-  font-family: "Crimson Text", serif;
+#about .container p {
+  font-family: 'Crimson Text', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
@@ -148,7 +148,7 @@ section {
 }
 
 .filme-container h2 {
-  font-family: "Crimson Text", serif;
+  font-family: 'Crimson Text', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 26px;
